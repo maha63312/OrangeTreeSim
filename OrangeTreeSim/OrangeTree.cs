@@ -54,6 +54,7 @@ namespace OrangeTreeSim
         {
             this.orangesEaten = 0;
             this.age++;
+            
             if (this.age < 80)
             {
                 this.height += 2;

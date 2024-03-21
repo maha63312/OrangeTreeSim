@@ -22,7 +22,7 @@ namespace OrangeTreeTest
 
             orangeTree.Age = 0;
 
-            orangeTree.Height = 13;
+            orangeTree.Height = 0;
 
             orangeTree.TreeAlive = true;
 
@@ -56,7 +56,7 @@ namespace OrangeTreeTest
 
             //Assert
 
-            Assert.AreEqual(8, orangeTree.Height);
+            Assert.AreEqual(2, orangeTree.Height);
 
         }
 
@@ -188,7 +188,7 @@ namespace OrangeTreeTest
 
             Assert.AreEqual(0, orangeTree.NumOranges);
 
-            Assert.AreEqual(164, orangeTree.Height);
+            Assert.AreEqual(158, orangeTree.Height);
 
             Assert.AreEqual(81, orangeTree.Age);
 
@@ -196,7 +196,7 @@ namespace OrangeTreeTest
 
             Assert.AreEqual(0, orangeTree.NumOranges);
 
-            Assert.AreEqual(164, orangeTree.Height);
+            Assert.AreEqual(158, orangeTree.Height);
 
             Assert.AreEqual(82, orangeTree.Age);
 
